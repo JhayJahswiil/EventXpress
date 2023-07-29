@@ -22,9 +22,9 @@ export default function Benefits() {
                 {/* Circle-1 */}
                 <div className='circle'>
                     <div className='circle-img'>
-                        <img src={circle_1_icon} alt='' />
-                        <img src={yellow_icon_bg} alt='' />
-                        <img src={circle_1} alt='' />
+                        <img src={circle_1_icon} alt='' className='circle-icon' />
+                        <img src={yellow_icon_bg} alt='' className='icon-bg' />
+                        <img src={circle_1} alt='' className='circle_img' />
                     </div>
                     <h4>Friendly Team</h4>
                 </div>
@@ -32,23 +32,27 @@ export default function Benefits() {
                 {/* Circle-2 */}
                 <div className='circle'>
                     <div className='circle-img'>
-                        <img src={circle_2_icon} alt='' />
-                        <img src={yellow_icon_bg} alt='' />
-                        <img src={circle_2} alt='' />
+                        <img src={circle_2_icon} alt='' className='circle-icon' />
+                        <img src={yellow_icon_bg} alt='' className='icon-bg' />
+                        <img src={circle_2} alt='' className='circle_img' />
                     </div>
-                    <h4>Friendly Team</h4>
+                    <h4>The Best Venues</h4>
                 </div>
 
                 {/* Circle-3 */}
                 <div className='circle'>
                     <div className='circle-img'>
-                        <img src={circle_3_icon} alt='' />
-                        <img src={yellow_icon_bg} alt='' />
-                        <img src={circle_3} alt='' />
+                        <img src={circle_3_icon} alt='' className='circle-icon' />
+                        <img src={yellow_icon_bg} alt='' className='icon-bg' />
+                        <img src={circle_3} alt='' className='circle_img' />
                     </div>
-                    <h4>Friendly Team</h4>
+                    <h4>Awesome Events</h4>
                 </div>
             </div>
+
+            <p className='benefit-p'>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.
+                Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.</p>
+            <button className='benefits-btn'>Register Now</button>
         </section>
     )
 }

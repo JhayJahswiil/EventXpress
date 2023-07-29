@@ -31,8 +31,8 @@ export default function UpcomingEvents() {
                             </div>
                         </div>
                         <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.</p>
-                        <div className='card-location'>
-                            <div>
+                        <div className='card-location-container'>
+                            <div className='card-location'>
                                 <FontAwesomeIcon icon={faLocationDot} />
                                 <small className='location'>San Fracisco</small>
                             </div>
@@ -57,8 +57,8 @@ export default function UpcomingEvents() {
                             </div>
                         </div>
                         <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.</p>
-                        <div className='card-location'>
-                            <div>
+                        <div className='card-location-container'>
+                            <div className='card-location'>
                                 <FontAwesomeIcon icon={faLocationDot} />
                                 <small className='location'>San Fracisco</small>
                             </div>
@@ -83,8 +83,8 @@ export default function UpcomingEvents() {
                             </div>
                         </div>
                         <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident.</p>
-                        <div className='card-location'>
-                            <div>
+                        <div className='card-location-container'>
+                            <div className='card-location'>
                                 <FontAwesomeIcon icon={faLocationDot} />
                                 <small className='location'>San Fracisco</small>
                             </div>
